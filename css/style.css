@@ -21,6 +21,7 @@ body {
   background: #171717;
   height: 80px;
   z-index: 999;
+  visibility: hidden;
 }
 
 #main_header .container {
