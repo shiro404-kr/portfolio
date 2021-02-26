@@ -18,8 +18,17 @@
 <body>
   <header id="main_header">
     <div class="container">
-      <h1><a href="./">KIM HWA_IN LEE</a></h1>
+      <h1><a href="./"><img src="./images/logo.svg" alt="Logo"></a></h1>
       <nav id="gnb">
+        <ul>
+          <li><a href="./">home</a></li>
+          <li><a href="#about">about</a></li>
+          <li><a href="#works">works</a></li>
+          <li><a href="#contact">contact</a></li>
+        </ul>
+      </nav>
+      <button class="gnb_menu"><img src="./images/btn-toggle.svg" alt=""></button>
+      <nav id="gnb-mob">
         <ul>
           <li><a href="./">home</a></li>
           <li><a href="#about">about</a></li>
@@ -43,14 +52,19 @@
   <section id="about">
     <div class="container">
       <div class="row">
-        <article class="photo col_6" data-aos="fade-right">
-          <img src="http://placeimg.com/370/410/animals" alt="사진">
+        <article class="photo col_6" data-aos="zoom-in-down">
+          <img src="./images/profile.jpg" alt="사진">
         </article>
-        <article class="text col_6" data-aos="fade-left" data-aos-offset="400">
-          <h2>ABOUT</h2>
-          <p>나는 어린 시절부터 컴퓨터를 좋아 했어요, 컴퓨터를 열고 고치고했음니다. 그게 너무 조아서 Youtube에서 </p>
-          <p>여기는 본인 소개...</p>
+        <article class="text col_6" data-aos="fade-left" data-aos-offset="300">
+          <h2>About <br> Kim Hwa In Lee</h2>
+          <p>나는 어린 시절부터 컴퓨터를 좋아 했어요, 컴퓨터를 열고 고치고했음니다. 그게 너무 좋아서 Youtube에서 코딩을 배웠다, 근대 컴퓨터가 없었어 2년 후 처음으로 코딩을 사용했다. 그러니 더 열심히!!!!</p>
+          <p><br>
+            Name : 김화인
+            <br><br>
+            Age  : 18년 (2003-6-3 ~ Alive)
+          </p>
         </article>
+        <button id="storyM">더 보기</button>
       </div>
     </div><!-- end container -->
   </section>
@@ -58,49 +72,71 @@
   <section id="works">
     <div class="container">
       <h2>MY WORKS</h2>
-      <div class="tab-group">
-        <button id="btn-all">all</button>
-        <button id="btn-web">web design</button>
-        <button id="btn-graphic">graphic</button>
-        <button id="btn-home">homepage</button>
-      </div>
+
       <!-- 작품 목록 -->
       <ul class="list row">
-        <li class="col_4">
-          <!-- a href 여기 작품사진(큰거) -->
-          <a data-fancybox="gallery" href="./images/work01.jpg">
-            <!-- img src 여기는 썹네일 작은 이미지(규격대로) -->
-            <img src="http://placehold.it/400x400?text=project 01" alt="1">
+        <li class="col_4 w-mob">
+          <a data-fancybox="gallery" href="">
+            <img src="./images/work1.png" alt="1">
           </a>
+          <br>
+          <p>John Wick</p>
+          <br><br>
+          <hr>
         </li>
-        <li class="col_4">
-          <a href="#">
-            <img src="http://placehold.it/400x400?text=project 02" alt="2">
+        <li class="col_4 w-mob">
+          <a data-fancybox="gallery" href="">
+            <img src="./images/work2.png" alt="2">
           </a>
+          <br>
+          <p>CREATION I.D.F<br>(infinite destruction fun)</p>
+          <br>
+          <hr>
         </li>
-        <li class="col_4">
-          <a href="#">
-            <img src="http://placehold.it/400x400?text=project 03" alt="3">
+        <li class="col_4 w-mob">
+          <a data-fancybox="gallery" href="">
+            <img src="./images/work3.png" alt="3">
           </a>
+          <br>
+          <p>portfolio maker<br>MOmiji</p>
+          <br>
+          <hr>
         </li>
-        <li class="col_4">
-          <a href="#">
-            <img src="http://placehold.it/400x400?text=project 04" alt="4">
+        <li class="col_4 w-mob clear">
+          <a data-fancybox="gallery" href="">
+            <img src="./images/work4.png" alt="4">
           </a>
+          <br>
+          <p>Bcoffee<br>빅커피</p>
+          <br>
+          <hr>
         </li>
-        <li class="col_4">
-          <a href="#">
-            <img src="http://placehold.it/400x400?text=project 05" alt="5">
+        <li class="col_4 w-mob">
+          <a data-fancybox="gallery" href="">
+            <img src="./images/work5.png" alt="5">
           </a>
+          <br>
+          <p>베달의민족</p>
+          <br><br>
+          <hr>
         </li>
-        <li class="col_4">
-          <a href="#">
-            <img src="http://placehold.it/400x400?text=project 06" alt="6">
+        <li class="col_4 w-mob">
+          <a data-fancybox="gallery" href="">
+            <img src="./images/work6.png" alt="6">
           </a>
+          <br>
+          <p>BioPhammer</p>
+          <br><br>
+          <hr>
         </li>
       </ul>
     </div><!-- end container -->
   </section>
+
+
+
+
+
 
 </body>
 </html>
